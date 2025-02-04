@@ -12,7 +12,7 @@
         }"></div>
       </div>
       <div class="card__face card__face__back">
-        <div class="content" :style="{ backgroundImage: `url(/src/assets/${ImageBackUrl})` }"></div>
+        <div class="content" :style="{ backgroundImage: `url(src/assets/${ImageBackUrl})` }"></div>
       </div>
     </div>
   </div>
