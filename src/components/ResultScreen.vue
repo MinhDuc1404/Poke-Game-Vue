@@ -14,7 +14,6 @@ export default {
       default: 0,
     },
   },
-  emits: ["onStartAgain"],
   methods: {
     onStartAgain() {
       this.$emit("onStartAgain");
