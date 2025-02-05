@@ -43,6 +43,8 @@ export default {
 
       this.Rule.push({ card, index });
 
+      if (this.Rule[0].index === this.Rule[1].index) this.Rule = [];
+
       console.log(this.Rule)
       if (this.Rule.length === 2 && this.Rule[0].card === this.Rule[1].card) {
         const index1 = this.Rule[0].index;
